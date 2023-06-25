@@ -1,0 +1,388 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+body {
+  font-family: gilroy-bold;
+}
+
+.main-container {
+  border: 1px solid white;
+  width: auto;
+  height: auto;
+  margin: 8px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.container nav ul li {
+  padding: 0px 30px;
+  position: relative;
+}
+
+.container nav ul li div ul {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+}
+
+.container nav ul button {
+  background: var(--primary-300-base, #0065FE);
+  border: var(--primary-300-base, #0065FE);
+  border-radius: 45px;
+  width: 100px;
+  height: 25px;
+}
+
+.container nav li div ul li {
+  display: block;
+  width: 150px;
+  font-size: 12px;
+  margin: 20px;
+  padding: 4px 10px 4px 14px;
+}
+
+.container nav ul .log-in-section {
+  display: flex;
+  padding: 0px 8px 0px 48px;
+}
+
+.opt{
+  justify-content: center;
+  text-align: center;
+  margin-top: 106px;
+}
+b{
+  color: #0065FE;
+}
+.opt h1{
+  line-height: 96px;
+  font-size: 48px;
+  margin-bottom: 0;
+}
+.opt p{
+  margin-top: 18px;
+  margin-bottom: 32px;
+  height: 105px;
+  color: var(--text-color-main-text, #141414);
+  text-align: center;
+  font-size: 18px;
+  font-family: Gilroy-Medium;
+  line-height: 28px;
+}
+.opt button{
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  background: var(--primary-300-base, #0065FE);
+  border: #0065FE;
+  color: #fff;
+  font-size: 16px;
+  margin-right: 56px;
+}
+.opt a{
+  text-decoration: none;
+  color: var(--primary-300-base, #0065FE);
+  font-size: 16px;
+  font-family: Gilroy-SemiBold;
+}
+
+/* body .page3 {
+  text-align: center;
+  justify-content: center;
+  margin: 100px;
+}
+
+body .page3 figure {
+  display: inline;
+}
+
+body .page3 h1 {
+  display: inline;
+  font-size: 40px;
+  width: auto;
+  height: fit-content;
+  position: relative;
+  bottom: 12px;
+}
+
+body .page3 .bottom {
+  display: flex;
+  flex-direction: column;
+  width: 560px;
+  inset: 0;
+  margin: auto;
+  position: relative;
+}
+
+body .page3 span {
+  color: #005ae2;
+} */
+
+.group2{
+  display: flex;
+  justify-content: center;
+  margin-top: 3.5rem;
+  /* margin-top: 56px;
+  position: relative;
+  border: none; */
+}
+
+.link{
+  display: flex;
+  margin-left: -200px;
+  margin-top: 30px;
+}
+.link img{
+  margin: 0;
+  padding: 0;
+}
+.framep{
+  display: block; 
+}
+#desktop{
+  margin: 0;
+}
+#frame2{
+  background-color: #F9FBFD;
+  display: flex;
+  width: 100%;
+  height: 140px;
+  justify-content: center;
+  align-items: center;
+}
+.cot{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 140px;
+}
+.frame2h{
+  display: flex;
+}
+.frame2h ul{
+  list-style: none;
+  line-height: 2px;
+  font-size: 16px;
+  margin-right: 72px;
+}
+.frame2h ul .li{
+  display: flex;
+}
+.frame2{
+  margin: 0;
+  margin-left: 50px;
+}
+.frame3{ 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin-top: 128px;
+  line-height: 28px;
+  margin-left: 120px;
+  margin-bottom: 130px;
+  
+}
+.cont3{
+  padding-bottom: 21.5rem;
+}
+.cont3 h2{
+  font-size: 40px;
+  margin: 0;
+  margin-top: -0.9rem;
+  margin-bottom: 1rem;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.contbox{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  margin-left: 96px;
+}
+.contbox img{
+  margin-bottom: 40px;
+}
+.contbox p{
+  margin-bottom: 54px;
+}
+
+.section3A {
+}
+
+body .FAQ-section .accordion img {
+  position: relative;
+  padding-bottom: 4px;
+  display: inline;
+}
+
+body .FAQ-section .accordion .header {
+  font-family: Gilroy-Bold;
+  font-size: 40px;
+  position: relative;
+  padding-bottom: 28px;
+}
+
+body .FAQ-section .accordion {
+  justify-content: center;
+  text-align: center;
+  inset: 0;
+  margin: auto;
+
+  /* min-height: 100vh; */
+  width: 700px;
+  font-size: 20px;
+  font-family: Gilroy-Medium;
+}
+
+body .FAQ-section .accordion .content-box {
+  margin: 10px auto;
+  text-align: justify;
+}
+
+body .FAQ-section .accordion .section5 {
+  display: flex;
+  position: relative;
+  text-align: center;
+  left: 20rem;
+}
+
+body .FAQ-section .accordion .content-box .label {
+  position: relative;
+  padding: 10px 0px;
+  display: flex;
+}
+
+body .FAQ-section .accordion .content-box .content {
+  font-size: 16px;
+  display: flex;
+}
+
+body .FAQ-section .accordion .content-box .label::before {
+  content: "+";
+  position: absolute;
+  top: 32%;
+  right: -18px;
+  transform: translateY(-50%);
+}
+
+body .FAQ-section .accordion .content-box .content {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  overflow-y: auto;
+}
+
+body .FAQ-section .accordion .content-box.active .content {
+  height: 85px;
+  padding: 10px;
+}
+
+body .FAQ-section .accordion .content-box.active .label::before {
+  content: "-";
+}
+
+.formcont{
+  height: 22rem;
+  width: 100%;
+  background: var(--linear-gradient, linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0.00) 100%));
+  margin-bottom: 2.69rem;
+}
+.formf{
+  width: 24.7rem;
+  height: 17.2rem;
+  background-color: #fff;
+  border: medium 1px;
+  margin-top: -21.6rem;
+  margin-left: 30rem ;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4991FF;
+  position: relative;
+}
+form input{
+  color: #4991FF;
+  font-size: 0.75rem;
+  position: relative;
+}
+form button{
+  background-color: #005AE2;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: none;
+  font-size: 0.875rem;
+  padding: 0.5rem 8rem;
+  margin-left: 12px;
+  position: relative;
+}
+.formf p{
+  line-height: 1.25rem;
+  font-size: 0.875rem;
+  margin: 12px;
+}
+input{
+  border-color:#4991FF ;
+  margin-left: 12px;
+}
+input[type=text]{
+  padding: 10px;
+  border-radius: 12px;
+  border: solid 1px;
+}
+select{
+  padding: 10px;
+  border-radius: 12px;
+  border-color: #4991FF;
+  color: #4991FF;
+  margin-left: 12px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5.94rem;
+}
+.maincont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.topcont {
+  display: flex;
+}
+.footer p {
+  display: flex;
+  padding-bottom: 5rem;
+}
+.footer h3 {
+  display: flex;
+  margin-right: 7.06rem;
+}
+.imgft {
+  margin-right: 2.44rem;
+  margin-top: -24.4rem;
+}
